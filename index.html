@@ -13,43 +13,43 @@
         <hr>
         <h2>כינוס קודקודים</h2>
         <h3>פרק 1 - קודקוד גברבר כאן קודקוד</h3>
-        <div class="bottom">
-           <center><iframe id="player" width="370" height="208" src="https://www.youtube.com/embed/AmbVCSfCp-Y?enablejsapi=1&autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
+        <div class="bottom" style="text-align: center;">
+            <iframe id="player" width="370" height="208" src="https://www.youtube.com/embed/AmbVCSfCp-Y?enablejsapi=1&autoplay=1" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
         <div class="grid">
-            <a class="box" data-start="0">
+            <a href="#" class="box" data-start="0">
                 <h2>המג"ד צח אקשטיין</h2>
                 <p>00:00 - 05:23</p>
             </a>
-            <a class="box" data-start="323">
+            <a href="#" class="box" data-start="323">
                 <h2>החזון והיעדים</h2>
                 <p>05:23 - 11:03</p>
             </a>
-            <a class="box" data-start="663">
+            <a href="#" class="box" data-start="663">
                 <h2>פרוץ המלחמה</h2>
                 <p>11:03 - 16:06</p>
             </a>
-            <a class="box" data-start="966">
+            <a href="#" class="box" data-start="966">
                 <h2>הכנות למלחמה</h2>
                 <p>16:06 - 20:06</p>
             </a>
-            <a class="box" data-start="1206">
+            <a href="#" class="box" data-start="1206">
                 <h2>הקרבות הראשונים</h2>
                 <p>20:06 - 26:04</p>
             </a>
-            <a class="box" data-start="1564">
+            <a href="#" class="box" data-start="1564">
                 <h2>מורל ותקשורת</h2>
                 <p>26:04 - 31:52</p>
             </a>
-            <a class="box" data-start="1912">
+            <a href="#" class="box" data-start="1912">
                 <h2>ה-10 בנובמבר</h2>
                 <p>31:52 - 51:09</p>
             </a>
-            <a class="box" data-start="3069">
+            <a href="#" class="box" data-start="3069">
                 <h2>התאוששות הגדוד</h2>
                 <p>51:09 - 55:10</p>
             </a>
-            <a class="box" data-start="3310">
+            <a href="#" class="box" data-start="3310">
                 <h2>תובנות וסיכום</h2>
                 <p>55:10 - 59:38</p>
             </a>
@@ -71,7 +71,7 @@
         }
 
         function onPlayerReady(event) {
-            // התחלת הסרטון באופן אוטומטי
+            // התחלת הסרטון באופן אוטומטי ללא השתקה
             player.playVideo();
 
             const sectionLinks = document.querySelectorAll('.box');
